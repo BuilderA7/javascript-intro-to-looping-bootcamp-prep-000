@@ -4,6 +4,7 @@ function forLoop(array){
  for (let i = 0; i < 25; i++){
  
  newarr.push("`I am ${i} strange loop${i === 0 ? \'\' : \'s\'}.`");
+ 
   }
  return newarr;
 }
