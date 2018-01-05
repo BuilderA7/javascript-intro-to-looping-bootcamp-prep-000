@@ -16,6 +16,10 @@ function whileLoop(n){
   return "done";
 }
 
+function maybeTrue() {
+  return Math.random() >= 0.5
+}
+
 function doWhileLoop(array){
   do{ 
     // for (let i = 1; i < array.length; ++i){
