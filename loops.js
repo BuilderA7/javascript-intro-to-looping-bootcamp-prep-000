@@ -5,9 +5,10 @@ function forLoop(array){
  if (i === 1){
    newarr.push(`I am 1 strange loop.`);
  }
+ else{
  newarr.push(`I am ${i} strange loops.`);
- 
-  }
+ }
+}
  return newarr;
 }
 
