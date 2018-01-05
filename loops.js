@@ -1,7 +1,8 @@
 function forLoop(array){
  var newarr = [];
- for (let i = 0; i < 25; i++){
  greeting = "`I am ${i} strange loop${i === 0 ? \'\' : \'s\'}.`";
+ for (let i = 0; i < 25; i++){
+ 
  newarr[i] = greeting;
   }
  return newarr;
