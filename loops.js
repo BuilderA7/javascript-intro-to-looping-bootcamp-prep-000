@@ -2,8 +2,10 @@ function forLoop(array){
  var newarr = [];
  
  for (let i = 0; i < 25; i++){
- 
- newarr.push("`I am ${i} strange loop${i === 0 ? \'\' : \'s\'}.`");
+ if (i === 1){
+   newarr.push(`I am 1 strange loop.`);
+ }
+ newarr.push(`I am ${i} strange loops.`);
  
   }
  return newarr;
